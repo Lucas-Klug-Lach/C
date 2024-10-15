@@ -23,10 +23,12 @@ int main(){
 	
 	if (idade >= 18){
 		printf("%s e permitido para dirigir \n", nome);
-		printf("%d Anos", idade);
+		printf("%d Anos\a", idade);
 	}else{
 		printf("%s nao e permitido para dirigir \n", nome);
-		printf("%d Anos", idade);
+		printf("%d Anos\a", idade);
 	}
+	
+	system("Pause");
 	
 }
