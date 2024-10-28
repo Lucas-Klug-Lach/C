@@ -10,6 +10,8 @@ int main(){
 	
 	if(m >= 7.0){
 		printf("Aprovado :D. \n \a");
+	}else{
+		printf("Desaprovado :C. \n \a");
 	}
 	
 	
